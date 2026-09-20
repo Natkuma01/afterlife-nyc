@@ -1,6 +1,9 @@
 # AfterLife NYC
-New York City's Hart Island serves as the city's public cemetery, including for unclaimed and unidentified remains and for families choosing public burial. This project investigates whether historical mortality patterns can help forecast changes in the number of deaths associated with Hart Island burials and identify periods that deviate significantly from historical trends.
+New York City’s Hart Island is the city’s public cemetery, where people may be buried if they are unclaimed or unidentified, as well as when families choose a public burial.
 
-The project constructs a reproducible data pipeline from NYC and federal public-health datasets, performs exploratory and time-series analysis, engineers population-level mortality features, compares forecasting models against simple baselines, and applies anomaly-detection techniques to identify unusual mortality periods.
+This project explores whether past death trends in New York City can help estimate how the number of deaths connected to Hart Island burials may change over time. It also looks for unusual periods when the numbers are much higher or lower than what we would normally expect.
 
-The system operates exclusively at an aggregate population level and does not attempt to predict whether any individual person will receive a public burial.
+To do this, I will collect and combine public data from New York City and federal health sources, study historical patterns, and build machine learning models to compare different ways of forecasting future trends and detecting unusual changes.
+
+The project focuses on overall trends across New York City. It does not try to predict whether a specific person will be buried on Hart Island.
+
